@@ -9,6 +9,32 @@
 
 <body>
     <?php
+    $nome = "Wennas";
+    // echo "$nome";
+
+
+    if ($nome == "Tania") {
+        echo "Vc acertou o nome";
+    }else{
+        echo "Você errou o nome";
+    }
+
+    $num1 = 5;
+    $num2 = 8;
+    $num3 = 2;
+    $num4 = 10;
+
+    $soma = $num1 + $num3;
+    print "<br>A soma é $soma";
+
+    $subtracao = $num4 - $num2;
+    print "<br>A subtracão é $subtracao";
+
+    $multiplicacao = $num1 * $num3;
+    print "<br>A multiplicação é $multiplicacao";
+
+    $divisao = $num4 / $num3;
+    print "<br>A divisão é $divisao";
 
     ?>
 </body>
