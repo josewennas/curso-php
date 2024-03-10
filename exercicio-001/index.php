@@ -11,11 +11,9 @@
     <?php
     $nome = "Wennas";
     // echo "$nome";
-
-
     if ($nome == "Tania") {
         echo "Vc acertou o nome";
-    }else{
+    } else {
         echo "Você errou o nome";
     }
 
@@ -35,6 +33,25 @@
 
     $divisao = $num4 / $num3;
     print "<br>A divisão é $divisao";
+
+    //Exercício 01############################################################
+    echo "===============<br>";
+    $a = 1000;
+    $b = $a / 2;
+
+    echo "$b";
+
+    echo "<br>";
+
+    $a = 100;
+    $b = $a * 3;
+    echo $b;
+
+    echo "<br>";
+    $a = 20;
+    echo ++$a;
+    echo "<br>";
+
 
     ?>
 </body>
