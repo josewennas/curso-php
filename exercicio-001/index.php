@@ -9,11 +9,7 @@
 
 <body>
     <?php
-    echo "Olá Wennawws";
-    echo '<br>';
-    echo "Olá Wennawws";
-    echo '<br>';
-    echo "Olá Wennawws";
+
     ?>
 </body>
 
