@@ -52,6 +52,12 @@
     echo ++$a;
     echo "<br>";
 
+    $a = 100;
+    $b = 250;
+    $c = $a + $b + 1;
+    
+    echo $c;
+
 
     ?>
 </body>
